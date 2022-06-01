@@ -1,5 +1,5 @@
 # The Web Development Bootcamp 
 
-testing version control 
+The complete web development bootcamp by Colt Steele. 
 
 
