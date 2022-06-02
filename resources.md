@@ -11,6 +11,6 @@
 * [HTML aside element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
 * [HTML header element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 * [HTML footer element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
-* []()
+* [HTML emmet cheatsheet for VSCode](https://docs.emmet.io/cheat-sheet/)
 * []()
 * []()
