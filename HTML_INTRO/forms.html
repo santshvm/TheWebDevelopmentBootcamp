@@ -34,19 +34,21 @@
       <!-- enclosing them inside the p tag as they are inline elements  -->
       <p>
         <label for="username">Enter Your Username: </label>
-        <input type="text" id="username" />
+
+        <!-- including the name attribute. whatever will be inside the name attribute will be the data that will be sent to the server.  -->
+        <input type="text" id="username" name="username" />
       </p>
       <p>
         <label for="password">Enter Your Password: </label>
-        <input type="password" id="password" />
+        <input type="password" id="password" name="password"/>
       </p>
       <p>
         <label for="dob">Enter Your Date Of Birth: </label>
-        <input type="date" id="dob" />
+        <input type="date" id="dob" name="date-of-birth"/>
       </p>
       <p>
         <label for="tel">Enter Your Telephone Number: </label>
-        <input type="tel" id="tel" />
+        <input type="tel" id="tel" name="telephone-number" />
       </p>
       <!-- the label for attribute and the id attribute should be the same. we can also nest a input inside a label. in that way, we don't need to include the for and the id attribute. but usually we don't nest the input inside the label and we just have the for and the id attribute approach instead -->
 
@@ -55,7 +57,7 @@
         <label>
           Pick Your Fav Color:
 
-          <input type="color" />
+          <input type="color" name="fav-color" />
         </label>
       </p>
       <!-- any button inside the html form element will just submit the form. to make the button behave just like a dummy button we need to include the type attribute and the type attribute has to be set to button -->
@@ -63,7 +65,16 @@
       <!-- this button will not submit the form and will behave just like a dummy button because of the type attribute -->
       <button type="button">This button does nothing!</button>
       <!-- we can also create a submit button using the input element by using the type="submit" attribute and the name of the button has to be inside an attribute called value -->
-      <input type="submit" value="submit button - input element">
+      <input type="submit" value="submit button - input element" />
     </form>
+
+    <!-- http:port/dummyland?username=santosh&password=blahblah&date-of-birth=2022-06-21&telephone-number=89899899889&fav-color=%23000000 
+    
+    This is the data sent to the server after clicking the submit button-->
+
+
+
+
+
   </body>
 </html>
