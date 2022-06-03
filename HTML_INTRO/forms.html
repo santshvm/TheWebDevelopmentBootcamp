@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <p>Demo of forms in html</p>
 
     <h2>This is a HTML form</h2>
     <!-- we use the form tag to create a form -->
     <!-- the action attribute specifies where the form will be sent to -->
     <form action="/dummylocation">
-        <!-- we use the input element to accept the user data in the html form -->
+      <!-- we use the input element to accept the user data in the html form -->
 
-        <!-- there can be many different types of inputs. we use the type attribute to specify the type of input in the html form like text, password, date etc.... -->
-        <input type="text">
-        <input type="password">
-        <input type="number">
+      <!-- there can be many different types of inputs. we use the type attribute to specify the type of input in the html form like text, password, date etc.... -->
+      <input type="text" />
+      <input type="password" />
+      <input type="number" />
 
-        <!-- we can also put a placeholder text using the placeholder attribute -->
-        <input type="password" placeholder="Enter The Password">
-        <input type="text" placeholder="Enter Your Name">
-        <input type="number" placeholder="What is your lucky number">
-        <input type="date">
-        <input type="tel" placeholder="Enter Your Telephone Number">
+      <!-- we can also put a placeholder text using the placeholder attribute -->
+      <input type="password" placeholder="Enter The Password" />
+      <input type="text" placeholder="Enter Your Name" />
+      <input type="number" placeholder="What is your lucky number" />
+      <input type="date" />
+      <input type="tel" placeholder="Enter Your Telephone Number" />
     </form>
-    
-</body>
+
+    <h2>This is a form with both label and input</h2>
+
+    <form action="/dummyland">
+        <!-- enclosing them inside the p tag as they are inline elements  -->
+      <p>
+        <label for="username">Enter Your Username: </label>
+        <input type="text" id="username" />
+      </p>
+      <p>
+        <label for="password">Enter Your Password: </label>
+        <input type="password" id="password" />
+      </p>
+      <p>
+        <label for="dob">Enter Your Date Of Birth: </label>
+        <input type="date" id="dob" />
+      </p>
+      <p>
+        <label for="tel">Enter Your Telephone Number: </label>
+        <input type="tel" id="tel" />
+      </p>
+      <!-- the label for attribute and the id attribute should be the same. we can also nest a input inside a label. in that way, we don't need to include the for and the id attribute. but usually we don't nest the input inside the label and we just have the for and the id attribute approach instead -->
+
+      <!-- nesting the input inside the label -->
+
+      <label>
+        Pick Your Fav Color:
+
+        <input type="color" />
+      </label>
+    </form>
+  </body>
 </html>
