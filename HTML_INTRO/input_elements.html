@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Of Input Elements</title>
+  </head>
+  <body>
+    <h1>Demo of some more type attributes in the input element</h1>
+
+    <h2>Tshirt Shopping - Do you agree to our terms and conditions?</h2>
+
+    <form action="./dummy-form">
+      <!-- creating a checkbox  -->
+      <input type="checkbox" name="agree_to_toc" id="agree" checked />
+      <label for="agree">Do you agree?</label>
+      <button type="submit">submit</button>
+    </form>
+    <br />
+    <br />
+    <h2>Select The Tshirt Size, please</h2>
+    <form action="./dummy-action">
+      <!-- creating radio buttons corresponding to the tshirt sizes -->
+      <!-- then name of all the radio buttons has to be same. if the name is same, then only one radio button can be selected instead of all of them -->
+      <input type="radio" name="size" id="xs" value="xs" />
+      <label for="xs">XS</label>
+
+      <input type="radio" name="size" id="s" value="s" />
+      <label for="s">S</label>
+
+      <input type="radio" name="size" id="m" value="m" />
+      <label for="m">M</label>
+      <input type="radio" name="size" id="l" value="l" />
+      <label for="l">L</label>
+
+      <button>submit size</button>
+
+
+      <!-- /HTML_INTRO/dummy-action?size=l -->
+    </form>
+
+    <br>
+    <br>
+    <h2>Please select the color of the t-shirt</h2>
+
+    <form action="./dummy-action">
+
+        <label for="color">Select Color From The DropDown List</label>
+        <select name="color" id="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="yellow">Yellow</option>
+            <option value="purple">Purple</option>
+            <option value="brown">Brown</option>
+        </select>
+
+        <button>Submit</button>
+
+        <!-- /HTML_INTRO/dummy-action?color=purple -->
+    </form>
+  </body>
+</html>
