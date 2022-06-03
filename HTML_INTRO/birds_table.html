@@ -42,5 +42,50 @@
         </tr>
       </tbody>
     </table>
+
+    <h2>Better Bird Table</h2>
+
+    <table>
+      <!-- It is a good practice to include thead, tbody and tfoot tags to the table element -->
+      <thead>
+        <tr>
+          <!-- the Animal header will span across two rows -->
+          <th rowspan="2">Animal</th>
+
+          <!-- The average mass header will span across two columns with headers kg and lb respectively -->
+          <th colspan="2">Average Mass</th>
+          <!-- the Flighted header will span across two rows -->
+          <th rowspan="2">Flighted</th>
+        </tr>
+        <!-- create a seperate row for the sub headers below the main header -->
+        <tr>
+          <th>KG</th>
+          <th>LB</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Common Ostrich</td>
+          <td>104</td>
+          <td>230</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Somali Ostrich</td>
+          <td>90</td>
+          <td>200</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <td>Whooper Swan</td>
+          <td>11.4</td>
+          <td>25</td>
+
+          <td>Yes</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
