@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation - HTML</title>
+</head>
+<body>
+    <h2>HTML Form Validation Demo</h2>
+    <form action="./dummy-action">
+        <label for="validation-demo">Enter Your Name: </label>
+        <input type="text" id="validation-demo" name="username" required>
+        
+        <p>
+            <!-- validating a password's minimum length and maximum length  -->
+            <label for="length-demo">Enter Your Password: </label>
+            <input type="password" id="length-demo" minlength="5" maxlength="10">
+           
+        </p>
+        <button>Submit The Form</button>
+    </form>
+
+    <!-- since the required attribute is there in the input tag, the form won't be submitted without the user entering the name and the browser(chrome) will display a message like Please fill in this field. -->
+
+    <!-- when we have the minlength and maxlength set to some values and we try to submit the form by entering less than the minlenght or maxlength, the form won't submit and we will get a prompt from the browser -->
+    
+</body>
+</html>
