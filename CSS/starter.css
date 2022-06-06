@@ -1,0 +1,48 @@
+/* universal selector  */
+
+* {
+
+    /* since we have used a universal selector over here, the text color of every element will change to pink. Even the text color of the buttons will change to pink. */
+    /* color: pink; */
+
+
+    /* similarly, the background color of all the elements like the body, the h1s, the buttons everything will change to cyan! */
+
+    background-color: #f1faee;
+}
+
+/* element selector  */
+
+/* changing the font-size of all the buttons to 30px */
+button {
+    font-size: 20px;
+    background-color: #a8dadc;
+}
+
+
+/* selector list - we can combine two element selectors seperated by a ,  */
+
+h1, h2 {
+    color: #1d3557
+}
+
+/* id selector - changes will be applied to only one button with the id sign up */
+
+#sign-up {
+    background-color: #1d3557;
+    color:  #f1faee
+}
+
+/* changing the text color of all the span elements */
+
+span {
+    color: #457b9d
+}
+
+/* class selector  */
+
+.tags {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}

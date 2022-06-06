@@ -38,7 +38,7 @@
 * [font-family property in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 * [css fonts - info about machine safe fonts](https://www.cssfontstack.com/)
 * [text-transform property in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
-* []()
+* [trending color palettes](https://coolors.co/palettes/trending)
 * []()
 * []()
 * []()
