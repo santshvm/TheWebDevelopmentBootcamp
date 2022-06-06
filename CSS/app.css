@@ -1,3 +1,10 @@
 h2 {
-    color: paleturquoise;
+    color: green;
+    background-color: black;
 }
+p {
+    color: red;
+    background-color: yellow;
+}
+
+/* color property is used to just change the text color of an element whereas the background color of the element is changed using the background-color property  */
