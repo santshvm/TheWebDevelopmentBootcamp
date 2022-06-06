@@ -7,4 +7,18 @@ p {
     background-color: yellow;
 }
 
+h3 {
+    color: white;
+    background-color: rgb(89, 151, 0);
+}
+
 /* color property is used to just change the text color of an element whereas the background color of the element is changed using the background-color property  */
+
+
+/* color can be used in three format - 1. named color like red, blue or white 2. rgb system. for ex: rgb(0, 0, 0) which is black btw 3. hex code*/
+
+/* let's change the background color of the body to a color by using the hex code of the color */
+body {
+    background-color: #F5DF99; 
+}
+
