@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    /* this will move the h1 element to the center of the screen */
+    font-weight: normal;
+    /* usually the h1 is in bold. after we make the font-weight normal, the h1 will appear less bolded */
+
+    /* we can underline the h1 using the text-decoration property */
+
+    /* underline the h1 in green  */
+    /* text-decoration: underline green; */
+
+    /* underline the h1 in orange and the underline should be wavy */
+    text-decoration: underline orange wavy;
+
+
+    /* letter-spacing property  */
+    letter-spacing: 10px;
+    /* letter-spacing adds space between the letters in the h1 heading  */
+
+    /* changing the font size of h1 */
+
+    font-size: 60px;
+
+    font-family: 'Segoe UI', Futura;
+
+    /* we can specify some back up fonts in font family. In the above case, if the font segoe UI is not available on a machine, then the font will appear in Futura */
+
+    /* if you were to change the letters to uppercase, you would use the text-transform property */
+    text-transform: uppercase;
+    
+}
+
+/* we can also set the text-decoration of anchor tags to none, if we do so, the anchor tags won't be underlined  */
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2.5;
+    /* line height adds a spacing between the lines */
+}
