@@ -46,3 +46,17 @@ span {
     color: #f1faee;
     font-size: 16px;
 }
+
+/* the descendant selector */
+
+
+/* anchor tag is the descendant of the element with the class posts */
+
+.posts a {
+    color: #457b9d; 
+}
+
+/* here we are targetting the anchor tag which is the descendant of the footer element */
+footer a {
+    color: #e63946;
+}
