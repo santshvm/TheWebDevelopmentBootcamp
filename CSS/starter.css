@@ -85,5 +85,18 @@ h2 + button {
 
 /* for ex : footer > a -> this will target only that anchor tag which is a children of the footer elemnent; not any anchor tags that are nested inside the ul element or any other elements */
 footer > a {
-    color:  #457b9d; 
+    color: #457b9d; 
 }
+
+
+
+/* --------------------------------ATTRIBUTE SELECTOR------------------------------------------- */
+
+/* for ex: let's say we want to only style the input whose type is password  */
+
+input[type="password"] {
+    color: red; 
+}
+
+/* only that input which has the type attribute = "password" will be selected and styled */
+/* this type of selector is not commonly used */
