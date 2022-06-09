@@ -56,7 +56,25 @@ span {
     color: #457b9d; 
 }
 
-/* here we are targetting the anchor tag which is the descendant of the footer element */
+/* here we are targetting the anchor tag which is the descendant of the footer element which means that any anchor tag that is nested inside the footer element will be targetted and styled */
 footer a {
     color: #e63946;
+}
+
+/* adjacent selector  */
+
+/* h2 + button -> this means that all the buttons that come after the h2 tag will be selected */
+
+h2 + button {
+    font-size: 15px;
+    /* background-color: red; */
+}
+
+
+/* direct descendant selector -> targetting only those elements which are direct children of the parent element (which means that those elements are not nested inside any other type of element inside the parent element */
+
+
+/* for ex : footer > a -> this will target only that anchor tag which is a children of the footer elemnent; not any anchor tags that are nested inside the ul element or any other elements */
+footer > a {
+    color:  #457b9d; 
 }
