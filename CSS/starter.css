@@ -1,4 +1,4 @@
-/* universal selector  */
+/* --------------------------------UNIVERSAL  SELECTOR------------------------------------------- */
 
 * {
 
@@ -11,7 +11,7 @@
     background-color: #f1faee;
 }
 
-/* element selector  */
+/* --------------------------------ELEMENT SELECTOR------------------------------------------- */
 
 /* changing the font-size of all the buttons to 30px */
 button {
@@ -20,11 +20,14 @@ button {
 }
 
 
+/* --------------------------------SELECTOR LIST------------------------------------------- */
+
 /* selector list - we can combine two element selectors seperated by a ,  */
 
 h1, h2 {
     color: #1d3557
 }
+/* --------------------------------ID SELECTOR------------------------------------------- */
 
 /* id selector - changes will be applied to only one button with the id sign up */
 
@@ -39,7 +42,7 @@ span {
     color: #457b9d
 }
 
-/* class selector  */
+/* --------------------------------CLASS SELECTOR------------------------------------------- */
 
 .tags {
     background-color: #e63946;
@@ -47,7 +50,7 @@ span {
     font-size: 16px;
 }
 
-/* the descendant selector */
+/* --------------------------------DESCENDANT SELECTOR------------------------------------------- */
 
 
 /* anchor tag is the descendant of the element with the class posts */
@@ -61,7 +64,7 @@ footer a {
     color: #e63946;
 }
 
-/* adjacent selector  */
+/* --------------------------------ADJACENT SELECTOR------------------------------------------- */
 
 /* h2 + button -> this means that all the buttons that come after the h2 tag will be selected */
 
@@ -69,6 +72,8 @@ h2 + button {
     font-size: 15px;
     /* background-color: red; */
 }
+
+/* --------------------------------DIRECT DESCENDANT SELECTOR------------------------------------------- */
 
 
 /* direct descendant selector -> targetting only those elements which are direct children of the parent element (which means that those elements are not nested inside any other type of element inside the parent element */
