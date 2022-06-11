@@ -45,7 +45,7 @@
 * [Pseudo Elements (not used in production code)](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 * [::first-letter pseudo element in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter)
 * [CSS specificity calculator](https://specificity.keegan.st/)
-* []()
+* [!important exception in CSS (not usually used)](https://developer.mozilla.org/en-US/docs/Web/CSS/important)
 * []()
 * []()
 * []()
