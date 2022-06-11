@@ -1,0 +1,16 @@
+body {
+    color: purple;
+}
+
+section {
+    color: aqua;
+}
+/* everything inside the section element will be set to the color aqua instead of purple. This is because the elements inside section do not inherit from body rather they inherit from the nearest parent element which is section  */
+
+form {
+    color: greenyellow;
+}
+/* certain elements like the button and input do not inherit from the nearest parent. when we use the inherit keyword we actually make them inherit the color or whatever property from the nearest parent element (in this case the color property from the parent element form will be inherited  */
+button, input {
+    color: inherit;
+}
