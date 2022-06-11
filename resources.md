@@ -41,7 +41,7 @@
 * [trending color palettes](https://coolors.co/palettes/trending)
 * [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 * [Psudo Classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
-* []()
+* [nth of type selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
 * []()
 * []()
 * []()

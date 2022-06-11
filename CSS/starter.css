@@ -100,3 +100,30 @@ input[type="password"] {
 
 /* only that input which has the type attribute = "password" will be selected and styled */
 /* this type of selector is not commonly used */
+
+
+/* --------------------------------PSEUDO CLASSES IN CSS------------------------------------------- */
+
+/* adding hover effect to all the buttons inside the class posts*/
+
+/* when the mouse cursor is hovered over the buttons, the styles will be added to the button  */
+
+.posts button:hover {
+    color: #f1faee;
+    background-color: #e63946;
+
+}
+
+
+/* adding hover effect to the anchor tags inside the class posts */
+
+
+.posts a:hover {
+    color:#e63946;
+    text-decoration: overline;
+}
+
+/* .posts :nth-of-type(2n) {
+    background-color: #aeb5ac;
+} */
+
