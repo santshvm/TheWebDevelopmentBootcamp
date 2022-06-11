@@ -130,3 +130,18 @@ input[type="password"] {
     background-color: #aeb5ac;
 } */
 
+
+/* --------------------------------PSEUDO ELEMENTS IN CSS------------------------------------------- */
+
+/* selecting the first letter of every h2 and giving some style like increasing the size of the text */
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+/* we can also do that to the entire document */
+
+::selection {
+    background-color: yellow;
+    color: purple;
+}
