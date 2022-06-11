@@ -181,3 +181,11 @@ when it comes to specificity - ID > Class > Element(order of specificity) which 
 
 
 Note: when it comes to specificity the inline css is MOST SPECIFIC!!! more specific than the id selector or the class selector or the element selector*/
+
+
+
+/* !important exception - when you use the !important exception, it makes a particular style more specific than all other styles  */
+
+button {
+    color: blueviolet !important; /* most specific */
+}
