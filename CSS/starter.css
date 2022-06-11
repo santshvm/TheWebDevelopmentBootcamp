@@ -145,3 +145,14 @@ h2::first-letter {
     background-color: yellow;
     color: purple;
 }
+
+/* --------------------------------CSS Cascade------------------------------------------- */
+
+/* the order your styles are declared and linked matters  */
+
+/* for ex: we have already declared the h1s and h2s to have a particular color. that style that was already declared above can be overriden  */
+
+h1, h2 {
+    color: #e63946;
+}
+/* now this new color will be applied to all the h1s and h2s.   */
