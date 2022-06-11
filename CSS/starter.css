@@ -123,6 +123,9 @@ input[type="password"] {
     text-decoration: overline;
 }
 
+
+/* every even no of element with the class post will be selected and have a background-color of #aeb5ac*/
+
 /* .posts :nth-of-type(2n) {
     background-color: #aeb5ac;
 } */
