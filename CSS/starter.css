@@ -156,3 +156,25 @@ h1, h2 {
     color: #e63946;
 }
 /* now this new color will be applied to all the h1s and h2s.   */
+
+
+/* ----------------------------------------CSS SPECIFICITY-------------------------------------------- */
+
+
+
+.posts button:hover {
+    color: #f1faee;
+    background-color: #e63946;
+
+}
+
+button:hover {
+    background-color: #1d3557;
+}
+
+/* #e63946 wins. when we hover over the buttons inside the class post, all the buttons switch to background-color #e63946 instead of #1d3557. why does this happen? ans - specificity. 
+
+In this case, we have declared two different styles to the button, so there is a conflict in styles and in case of a conflict the browser defines some rules to prefer one style over other and it all depends on the specificity of the selectors. 
+
+
+when it comes to specificity - ID > Class > Element(order of specificity) which means that ID will win over class selector and class selector will win over element selector when it comes to resolving conflict on the basis of specificity  */
