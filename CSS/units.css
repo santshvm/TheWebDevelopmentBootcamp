@@ -18,3 +18,28 @@ h1 {
     border: 1px solid black;
     line-height: 200%;
 }
+
+article {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 2em;
+    /* the font size will be twice the font size of the parent element that is 120px */
+}
+p {
+    font-size: 0.5em;
+    /* the font-size of paragraph will be 0.5% of the parent element */
+}
+
+/* note: when we use ems with the font-size property, it will be relative to the font-size of the parent element. for ex: if the font-size of the parent element is 40px then 2em would mean 80px and 0.5em would mean 20px */
+/* note: when we use ems with properties other than font-size, it will be relative to the element's font-size  */
+
+/* demo of rem */
+/* rem is relative to the root element whereas em is relative to the parent element */
+
+
+ul {
+    font-size: 2rem;
+    /* font-size: 2em; */
+}
