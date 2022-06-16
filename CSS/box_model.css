@@ -108,6 +108,12 @@ button {
     /* this sets the top to 20px; horizontal to 10px (left and right side) and the bottom to 30px */
 }
 
+span {
+    margin-left: 50px;
+    /* margin bottom won't work in case of a span why? because it is an inline element */
+    margin-bottom: 50px; 
+}
+
 
 
 
