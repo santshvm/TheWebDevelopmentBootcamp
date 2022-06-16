@@ -1,0 +1,20 @@
+section {
+    background-color: aqua;
+    height: 800px;
+    width: 800px;
+}
+
+div {
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+}
+
+/* when we use the % unit with the width and height property it is relative to the parent element (in this case the section), so the div will be 50% 0f 800 * 50% of 800 that is 400 * 400 */
+/* when the % unit is used with other property such as the line-height, it will be relative to the element itself */
+
+h1 {
+    font-size: 80px;
+    border: 1px solid black;
+    line-height: 200%;
+}
