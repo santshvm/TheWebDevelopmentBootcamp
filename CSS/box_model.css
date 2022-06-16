@@ -1,5 +1,7 @@
 /* demo of the css box model */
 
+/* demo of the content box and the height and the width property */
+
 div {
     /* the width property will change the width of the content box  */
     width: 250px;
@@ -12,4 +14,45 @@ div {
 h1 {
     /* the background color will go all the way across the page as we have not modified the dimensions of the content box  */
     background-color:  rgb(129, 171, 129);
+}
+
+
+/* demo of border and the border properties  */
+
+#one {
+    background-color: rgb(50, 84, 50);
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    
+    /* if we want the content of the div to go from the beginning to the end of the border, we could use the box-sizing property; basically the border will adjust itself according to the dimension of the content box */
+
+    /* using the border-sizing property makes things easier as you can set the entire height and width of the element including the border  */
+    box-sizing: border-box;
+
+
+    border-radius: 30px;
+
+}
+
+#two {
+    background-color: rgb(7, 216, 7);
+    border-width: 10px;
+    border-color: yellow;
+    border-style: dashed;
+    box-sizing: border-box;
+}
+
+#three {
+    background-color:  rgb(3, 58, 3);
+
+    /* border shorthand that can be used to set the border width, border style etc...  */
+    /* width -> style -> color */
+    
+    border: 10px dotted #eee;
+
+    /* we can change only one side of the border too like suppose we want to have the left side of the border to have a different style than the rest of the sides of the border then we can do something like this :  */
+    
+    border-left-color: black;
+    border-right-style: dashed;
 }
