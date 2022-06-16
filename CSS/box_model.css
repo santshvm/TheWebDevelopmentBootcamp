@@ -56,3 +56,42 @@ h1 {
     border-left-color: black;
     border-right-style: dashed;
 }
+
+
+/* demo of padding  */
+
+/* padding -> padding is the space between the content-box and the border of an element */
+
+/* inspect the element and the padding will be represented by the green color strips around the content box */
+
+h2 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 10px solid blue;
+
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+/* shorthand padding property demo -> sets padding on top, right, bottom and left */
+button {
+
+    /* shorthand padding -> sets padding on top, right, bottom and left */
+    /* padding: 20px;  */
+
+    /* vertical and horizontal padding */
+    /* padding: 10px 20px; */
+    /* this sets 10px padding in vertical(top and bottom) and 20px padding in the horizontal(left and right) */
+
+    /* top, left & right and the bottom */
+    padding: 20px 10px 30px;
+    /* this sets the top to 20px; horizontal to 10px (left and right side) and the bottom to 30px */
+}
+
+
+/* demo of margin */
+/* margin -> margin is the space between the border of two different elements or margin is the space between two elements */
+
