@@ -1,0 +1,27 @@
+/* demo of display block */
+h1 {
+    background-color: bisque;
+    /* we know that h1 is a block level element */
+    /* we can make this h1 to behave like an inline element using the display inline property */
+    display: inline;
+
+}
+/* demo of display inline */
+span {
+    background-color: aquamarine;
+    /* we know that span is an inline element. we can make this inline element to behave like a block level element using the display block property */
+    display: block;
+}
+
+/* demo of display inline-block */
+/* inline-block -> the element will behave like an inline element except for the fact that height, width and margin will be respected */
+/* note -> in case of an inline element the properties like height, width and margin are not respected */
+
+div {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    display: inline-block;
+    margin: 50px;
+}
