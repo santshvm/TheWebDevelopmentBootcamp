@@ -1,0 +1,15 @@
+/* demo of the css box model */
+
+div {
+    /* the width property will change the width of the content box  */
+    width: 250px;
+    /* the height property will change the height of the content box  */
+    height: 250px;
+    /* when we give this element a background color you will notice that this background-color does not go all the way across the page as we have modified the dimensions of the content box  */
+    background-color: rgb(129, 171, 129);
+}
+
+h1 {
+    /* the background color will go all the way across the page as we have not modified the dimensions of the content box  */
+    background-color:  rgb(129, 171, 129);
+}
