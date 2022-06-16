@@ -1,4 +1,9 @@
 /* demo of the css box model */
+
+/* demo of margin */
+/* margin -> margin is the space between the border of two different elements or margin is the space between two elements */
+
+/* note: the body element has some default margin value. most developers, therefore, set the margin of the body element to zero */
 body {
     margin: 0;
 }
@@ -104,8 +109,5 @@ button {
 }
 
 
-/* demo of margin */
-/* margin -> margin is the space between the border of two different elements or margin is the space between two elements */
 
-/* note: the body element has some default margin value. most developers, therefore, set the margin of the body element to zero */
 
