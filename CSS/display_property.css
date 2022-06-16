@@ -25,3 +25,7 @@ div {
     display: inline-block;
     margin: 50px;
 }
+
+h2 {
+    display: none;
+}
