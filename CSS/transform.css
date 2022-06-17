@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 0.7em;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: lighter;
+}
+h1:nth-of-type(2n) {
+    background-color: #264653;
+}
+h1:nth-of-type(3n) {
+    background-color: #2a9d8f;;
+}
+h1:nth-of-type(4n) {
+    background-color: #e9c46a;
+}
+section:first-of-type h1:nth-of-type(1) {
+    transform: rotate(180deg);
+    /* we can also change the point at which the rotation occurs using the transform-origin property */
+    /* transform-origin: bottom right; */
+}
+section:first-of-type h1:nth-of-type(2) {
+    transform: scale(2.0);
+}
+section:first-of-type h1:nth-of-type(3) {
+    transform: translateX(100px);
+}
+section:first-of-type h1:nth-of-type(4) {
+    transform: translateY(-100px);
+}
+section:nth-of-type(2) h1:nth-of-type(1) {
+    transform: skew(20deg);
+}
+section:nth-of-type(2) h1:nth-of-type(2) {
+    transform: skew(20deg, 10deg);
+}
+section:nth-of-type(2) h1:nth-of-type(3) {
+    transform: rotate(20deg) scale(1.5);
+}
