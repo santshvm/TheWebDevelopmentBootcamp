@@ -1,0 +1,47 @@
+.circle {
+    background-color: magenta;
+    height: 400px;
+    width: 400px;
+    /* transition: 1s; */
+
+    /* when we only say transition 1s, this transition will be applied to all the propery like the background-color and the border-radius will take 1s for the transition. however, we can specify the propery name and if we do so, the transition will only be applied to that property only */
+
+    /* transition: border-radius 0.5s; */
+
+    /* in the above case, only border-radius will take 0.5s for the transition */
+    /* we can also specify a delay */
+
+    /* transition: background-color 1s 1s; */
+
+    /* we cam also specify different properties in the transition propery  */
+    transition: background-color 1s 1s, border-radius 2s 2s;
+
+}
+.circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+section div {
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    margin: 20px 0;
+    transition: margin-left 3s;
+}
+section:hover div{
+    margin-left: 500px;
+}
+
+div:nth-of-type(1) {
+    transition-timing-function: ease-in;
+}
+div:nth-of-type(2) {
+    transition-timing-function: ease-out;
+}
+div:nth-of-type(3) {
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+div:nth-of-type(4) {
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
